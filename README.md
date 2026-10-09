@@ -1,5 +1,16 @@
 # SimpleInvoice
 
+**Live demo:** https://simple-invoice-mk.onrender.com · **API docs (Swagger):** https://simple-invoice-api-mk.onrender.com/api/docs
+
+| | |
+| --- | --- |
+| App | https://simple-invoice-mk.onrender.com |
+| API | https://simple-invoice-api-mk.onrender.com |
+| Swagger | https://simple-invoice-api-mk.onrender.com/api/docs |
+| Login | `reviewer@simpleinvoice.dev` / `Password123!` |
+
+Hosted on Render's free plan: if the API has been idle for 15 minutes, the first request takes about a minute while it wakes up. The demo data is shared, so anything you add is visible to other reviewers. See [Deploying to Render](#deploying-to-render).
+
 ## Overview & Architecture
 
 A full-stack invoicing app built for the **Full Stack Engineer assessment (SimpleInvoice)**. You can log in, browse invoices (search, filter, sort, paginate), view and create invoices, and, beyond the brief, take invoices from Draft to Paid (or write off what won't be collected), edit or delete drafts, download paid invoices as PDF, and import invoices in bulk from Excel.
@@ -316,6 +327,8 @@ balanceAmount = totalAmount − totalPaid
 ---
 
 ## Deploying to Render
+
+The app is deployed on Render from this repository: **https://simple-invoice-mk.onrender.com** (API docs at https://simple-invoice-api-mk.onrender.com/api/docs). Every push to `main` redeploys it.
 
 `render.yaml` is a [Render Blueprint](https://render.com/docs/blueprint-spec) that creates everything in one go:
 
