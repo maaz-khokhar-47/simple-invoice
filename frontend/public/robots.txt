@@ -1,0 +1,6 @@
+# SimpleInvoice is a private app. Only the login page may be crawled;
+# invoices, customers and the API must never be indexed. nginx also sends
+# "X-Robots-Tag: noindex" on every other page as a second line of defence.
+User-agent: *
+Allow: /login
+Disallow: /

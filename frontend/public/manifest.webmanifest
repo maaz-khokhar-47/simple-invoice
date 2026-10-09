@@ -1,0 +1,16 @@
+{
+  "name": "SimpleInvoice",
+  "short_name": "Invoices",
+  "description": "Create invoices, track what customers owe, record payments and write-offs.",
+  "start_url": "/invoices",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f6fa",
+  "theme_color": "#3b5bdb",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
